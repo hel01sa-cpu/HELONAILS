@@ -1,0 +1,64 @@
+body {
+    color: brown;
+    background: lavenderblush;
+    margin: 15px;
+    font-family: "Lilita One", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(165, 42, 42);
+    padding: 50px;
+}
+
+.chamada {
+    background: lavenderblush;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+p {
+    font-size: 31;
+}
+
+header {
+    font-size: 35;
+}
+
+img {
+    height: 200;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+}
+
+.categoria {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.categoria-videos img {
+    opacity: 0.7;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid red;
+}
+
+.categoria h2 {
+    color: brown;
+}
